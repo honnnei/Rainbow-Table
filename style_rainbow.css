@@ -1,0 +1,48 @@
+.box {
+  height: 150px;
+  width: auto;
+  text-align: justify;
+  color: white;
+  }
+
+.box2 {
+  height: 500px;
+  width: auto;
+  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  text-align: justify;
+  color: white;
+}
+
+h1 {
+  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 100px;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2em;
+  color: white;
+}
+
+
+
+
+
+
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+
+.rainbow-gradient {
+  background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  text-align: center;
+  color: white;
+  letter-spacing: 1.5em;
+  }
