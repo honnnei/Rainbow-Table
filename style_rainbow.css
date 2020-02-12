@@ -1,12 +1,12 @@
 .box {
-  height: 150px;
+  height: 200px;
   width: auto;
   text-align: justify;
   color: white;
   }
 
 .box2 {
-  height: 500px;
+  height: 300px;
   width: auto;
   background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
   text-align: justify;
@@ -17,14 +17,15 @@ h1 {
   background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   color: transparent;
+  font-family: monospace;
   font-size: 100px;
 }
 
 h2 {
   font-family: monospace;
-  font-size: 30px;
+  font-size: 70px;
   font-weight: bold;
-  letter-spacing: 2em;
+  letter-spacing: 1em;
   color: white;
 }
 
