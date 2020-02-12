@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Table</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+<body>
+  <div>
+    <h1> This is my rainbow table and I love it very much, indeed!</h1>
+  </div>
+<table>
+  <thead>
+    <tr>
+      <th class="time">Time</th>
+      <th class="monday">Monday</th>
+      <th class="tuesday">Tuesday</th>
+      <th class="wednesday">Wednesday</th>
+      <th class="thursday">Thursday</th>
+      <th class="friday">Friday</th>
+      <th class="saturday">Saturday</th>
+      <th class="sunday">Sunday</th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr> <!-- Row 1 -->
+    <td class="time">9-10am</td>
+    <td rowspan="2" class="monday">Gym</td>
+    <td rowspan="2" class="tuesday">Coding</td>
+    <td rowspan="2" class="wednesday">Gym</td>
+    <td rowspan="2" class="thursday">Coding</td>
+    <td rowspan="2" class="friday">Gym</td>
+    <td rowspan="2" class="saturday">Coding</td>
+    <td rowspan="2" class="sunday">Coding</td>
+  </tr>
+  <tr> <!-- Row 2 -->
+    <td class="time">10-11am</td>
+  </tr>
+  <tr> <tr> <!-- Row 3 -->
+    <td class="time">11-12pm</td>
+    <td class="monday">Walking the dog</td>
+    <td class="tuesday">Walking the dog</td>
+    <td class="wednesday">Walking the dog</td>
+    <td class="thursday">Walking the dog</td>
+    <td class="friday">Walking the dog</td>
+    <td rowspan="3" class="saturday">Walking the dog</td>
+    <td rowspan="3" class="sunday">Walking the dog</td>
+  </tr>
+  <tr> <tr> <!-- Row 4 -->
+    <td class="time">12-1pm</td>
+    <td rowspan="4" class="monday">Frontend</td>
+    <td rowspan="4" class="tuesday">Frontend</td>
+    <td rowspan="5" class="wednesday">Backend</td>
+    <td rowspan="5" class="thursday">Backend</td>
+    <td rowspan="5" class="friday">Backend</td>
+    </tr>
+  <tr> <tr> <!-- Row 5 -->
+    <td class="time">1-2pm</td>
+    <td rowspan="4" class="saturday">Free time (coding)</td>
+    <td rowspan="4" class="sunday">Free time (coding)</td>
+  </tr>
+  <tr>
+    <td class="time">2-3pm</td>
+    </tr>
+  <tr>
+    <td class="time">3-4pm</td>
+    <td rowspan="2" class="monday">Backend</td>
+    <td rowspan="2" class="tuesday">Backend</td>
+  </tr>
+  <tr>
+    <td class="time">4-5pm</td>
+    <td class="wednesday">Frontend</td>
+    <td class="thursday">Frontend</td>
+    <td class="friday">Frontend</td>
+    </tr>
+</tbody>
+<tfooter>
+  <tr>
+    <td class="time"></td>
+    <td colspan="7" class="rainbow-gradient">This is kinda cool.
+    </td>
+  <tr>
+</tfooter>
+</table>
+</body>
+</html>
